@@ -21,6 +21,7 @@ export default defineConfig({
     nav: [
       { text: 'HOME', link: '/' },
       { text: 'WALLET', link: '/wallet' },
+      { text: 'NFTs', link: '/nfts' },
       {
         text: 'PLAY',
         items: [
@@ -33,9 +34,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'x', link: 'https://x.com/dogeshan' },
+      { icon: 'github', link: 'https://github.com/dogeshan' },
     ],
     footer: {
-      message: 'dogeshan little fan created.a piece of cloth over his head. He is the richest of the blue stars',
+      message: 'dogeshan fans created.a piece of cloth over his head. He is the richest of the blue stars',
       copyright: 'Copyright © 2024-present dogeshan.com'
     }
   }
